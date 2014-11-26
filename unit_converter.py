@@ -141,10 +141,6 @@ class Term(object):
         else:
             return str(self.coefficient)+'*'+prod
 
-    def __int__(self):
-        #print self.data[0]
-        return self.coefficient# * self.data[0]
-
 ############################################################
 
 class Expression(object):
